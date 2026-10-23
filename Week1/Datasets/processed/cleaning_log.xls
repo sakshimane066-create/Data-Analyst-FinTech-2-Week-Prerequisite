@@ -1,0 +1,25 @@
+dataset,action,affected
+df1,standardised fund_house names ('MF' -> 'Mutual Fund'),20
+df3,standardised fund_house names ('MF' -> 'Mutual Fund'),45
+df7,standardised fund_house names ('MF' -> 'Mutual Fund'),20
+df1,converted 'launch_date' to datetime (unparseable: 0),40
+df2,converted 'date' to datetime (unparseable: 0),46000
+df3,converted 'date' to datetime (unparseable: 0),90
+df8,converted 'transaction_date' to datetime (unparseable: 0),32778
+df9,converted 'portfolio_date' to datetime (unparseable: 0),322
+df10,converted 'date' to datetime (unparseable: 0),8050
+df4,converted 'month' (YYYY-MM) to datetime (unparseable: 0),48
+df5,converted 'month' (YYYY-MM) to datetime (unparseable: 0),144
+df6,converted 'month' (YYYY-MM) to datetime (unparseable: 0),21
+df1,removed duplicate rows,0
+df2,removed duplicate rows,0
+df3,removed duplicate rows,0
+df4,removed duplicate rows,0
+df5,removed duplicate rows,0
+df6,removed duplicate rows,0
+df7,removed duplicate rows,0
+df8,removed duplicate rows,0
+df9,removed duplicate rows,0
+df10,removed duplicate rows,0
+df8,"flagged amount outliers (kept, column is_amount_outlier)",1063
+df4,flagged new-account outliers (kept),1
